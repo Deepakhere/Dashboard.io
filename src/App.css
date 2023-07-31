@@ -1,0 +1,29 @@
+.input-field{
+    background-color: #febb02;
+    border-radius: 2px;
+    display: flex;
+    margin: 12px 0;
+    padding: 2px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-box>div {
+    align-self: center;
+    box-sizing: border-box;
+    padding: 2px;
+    width: 100%;
+}
+.data-in{
+    border: none;
+    border-radius: 2px;
+    display: block;
+    flex-grow: 1;
+    outline: none; 
+    box-sizing: border-box;
+    margin: 0;
+    padding:12px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 5; 
+}
